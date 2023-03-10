@@ -17,5 +17,9 @@ console.log(sum);
 const v = 10;
 const m = 7;
 const product = v * m ;
-
 console.log(product);
+
+const d = 20;
+const  l = 5;
+const quotient = d / l ;
+console.log(quotient);
