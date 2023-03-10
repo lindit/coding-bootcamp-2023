@@ -13,3 +13,12 @@ console.log(sum);
 //TODO: Do the same as above for difference, product and quotient each.
 // but define new variables for each of them.
 // HINT: Use the operators -, * and / for difference, product and quotient respectively.
+
+//Solution
+const x = 8;
+const y = 4;
+const dif = x - y;
+const product = x * y;
+const quot = x / y;
+
+console.log(dif, product, quot);
