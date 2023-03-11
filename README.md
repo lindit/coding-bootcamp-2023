@@ -18,4 +18,4 @@ You'll mind also find a `README.md` file with the exercise description.
 Pre-requisites: Node.js and NPM (see [docs/NodeAndNPM.md](docs/NodeAndNPM.md))  
 With `ts-node` installed, run `ts-node <path-to-file>`  
 Example:  
-`ts-node src/ex0/base.ts`
+`ts-node src/exercises/ex0/base.ts`
