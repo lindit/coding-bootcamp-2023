@@ -1,5 +1,3 @@
-import * as punycode from "punycode";
-
 const emptyObjet = {};
 
 const person = { name: "Vigan", age: 20, isAlbanian: true };
