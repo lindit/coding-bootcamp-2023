@@ -1,7 +1,6 @@
 interface IPerson {
   name: string;
   age: number;
-  email: string;
 }
 
 /**
@@ -9,28 +8,32 @@ interface IPerson {
  * HINT: the type after the function  ↓↓↓↓↓↓↓↓↓↓ indicates the Type that should be returned
  */
 function getAdults(people: IPerson[]): IPerson[] {
-  //   TODO: Your code here
+  //   TODO: Your code here and overwrite return statement
+  return [];
 }
 
 /**
  * Returns the average age of all people
  */
 function getAverageAge(people: IPerson[]): number {
-  //   TODO: Your code here
+  //   TODO: Your code here and overwrite return statement
+  return -1;
 }
 
 /**
  * Returns the youngest person
  */
 function getYoungest(people: IPerson[]): IPerson {
-  //   TODO: Your code here
+  //   TODO: Your code here and overwrite return statement
+  return { name: "", age: -1 };
 }
 
 /**
  * Returns the oldest person
  */
 function getOldest(people: IPerson[]): IPerson {
-  //   TODO: Your code here
+  //   TODO: Your code here and overwrite return statement
+  return { name: "", age: -1 };
 }
 
 /**
@@ -56,22 +59,18 @@ function isEqual(expected: any, actual: any) {
 const person1: IPerson = {
   name: "John Doe",
   age: 18,
-  email: "johndoe@example.com",
 };
 const person2: IPerson = {
   name: "Jane Smith",
   age: 22,
-  email: "janesmith@example.com",
 };
 const person3: IPerson = {
   name: "Tom Johnson",
   age: 35,
-  email: "tomjohnson@example.com",
 };
 const person4: IPerson = {
   name: "Mary Lee",
   age: 17,
-  email: "marylee@example.com",
 };
 const people: IPerson[] = [person1, person2, person3, person4];
 isEqual([person1, person2, person3], getAdults(people));
