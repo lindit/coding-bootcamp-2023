@@ -5,14 +5,16 @@ function sum(arr: number[]) {
   }
   console.log(result);
 }
-sum([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 
-function findFirstGreaterThan10(arr: number[]): number {
+// sum([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
+function findFirstGreaterThan10(arr: number[]) {
   for (const number of arr) {
     if (number > 10) {
       return number;
     }
   }
-  return -1;
 }
-findFirstGreaterThan10([1, 2, 3, 4, 5, 6, 7, 8, 9, 99, 999, 9999, 9999]);
+
+let number = findFirstGreaterThan10([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+console.log(number);
